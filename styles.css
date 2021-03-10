@@ -1,0 +1,133 @@
+html {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  line-height: 2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+}
+#logo {
+  width: auto;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+}
+a {
+  text-decoration: none;
+}
+/* Container */
+#container {
+  margin: 2rem auto;
+  overflow: hidden;
+}
+/*links */
+
+/* header */
+#header {
+  background-color: #eeeeee;
+  color: #333;
+  margin: 0px;
+}
+
+.message-box {
+  text-align: center;
+  margin: 3rem;
+  padding: 0.8rem;
+}
+.submit {
+  padding: 0.7rem;
+  border-radius: 30px;
+  color: #333;
+  background-color: #f1c40f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.email {
+  padding: 00.8rem;
+  border-radius: 30px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+#features {
+  display: flex;
+  flex-direction: column;
+}
+
+#features .features {
+  display: inline-flex;
+}
+.main-c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+.box {
+  text-align: center;
+  margin: 35px 0px 35px 0px;
+}
+.sub {
+  padding: 1rem;
+  border-radius: 30px;
+  color: #333;
+  background-color: #f1c40f;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#video-section {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: #eeeeee;
+  padding: 1rem;
+  padding-bottom: 100px;
+}
+footer p {
+  text-align: center;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  justify-content: space-evenly;
+}
+.info a {
+  color: #333;
+}
+img {
+  width: 280px;
+  height: 315px;
+}
+.container {
+  width: fit-content;
+}
+.submit:hover {
+  background-color: green;
+}
+.sub:hover {
+  background-color: green;
+}
+nav li a {
+  color: black;
+}
+.features {
+  margin-top: 50px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 15px 0;
+}
